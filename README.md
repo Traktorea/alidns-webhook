@@ -38,7 +38,7 @@ Please find document here: https://cert-manager.io/docs/installation/kubernetes/
     acme:
       # Change to your letsencrypt email
       email: certmaster@example.com
-      server: https://acme-staging-v02.api.letsencrypt.org/directory
+      server: https://acme-staging-v02.api.letsencrypt.org/directory #生产环境请使用 https://acme-v02.api.letsencrypt.org/directory
       privateKeySecretRef:
         name: letsencrypt-staging-account-key
       solvers:
