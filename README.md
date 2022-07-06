@@ -73,7 +73,7 @@ spec:
     kind: ClusterIssuer
 ```
 
-### Install webhook (Cert manager prior to v0.11)
+### Install webhook (Cert manager to v0.1.0)
 1. Install alidns-webhook
 
   ```bash
