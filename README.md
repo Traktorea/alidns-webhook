@@ -12,7 +12,7 @@ Please find document here: https://cert-manager.io/docs/installation/kubernetes/
 
   ```bash
   # Install alidns-webhook to cert-manager namespace. 
-  kubectl apply -f https://raw.githubusercontent.com/pragkent/alidns-webhook/master/deploy/bundle.yaml
+  kubectl apply -f https://raw.githubusercontent.com/Traktorea/alidns-webhook/master/deploy/bundle.yaml
   ```
 
 2. Create secret contains alidns credentials
@@ -78,7 +78,7 @@ spec:
 
   ```bash
   # Install alidns-webhook to cert-manager namespace. 
-  kubectl apply -f https://raw.githubusercontent.com/pragkent/alidns-webhook/master/deploy/legacy.yaml
+  kubectl apply -f https://raw.githubusercontent.com/Traktorea/alidns-webhook/master/deploy/legacy.yaml
   ```
 
 2. Create secret contains alidns credentials
